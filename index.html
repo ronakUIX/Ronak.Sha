@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h1 class="name">Ronak Sharma</h1>
+        <div class="menu">
+            <a href="#face-1" class="active">Home</a>
+            <a href="#About-kishan">About</a>
+            <a href="#project-pic">Project</a>
+            <a href="#Social-link">Social Media</a>
+        </div>
+        <!--  -->
+        <a href="#get-into" class="active">
+        <button id="button">Get in touch</button></a>
+    </nav>
+<section id="face-1" class="start">
+    <div class="img"></div>
+<h4 class="hey">Hey!</h4>
+<h1 class="profession">I ’m Ronak Sharma <br>
+    an UI/UX Designer.</h1>
+<p class="qoute">Turning ideas into beautiful and functional designs</p>
+<a href="#get-into" class="active">
+<button id="hire">Hire</button></a>
+</section>
+<!-- section 2 -->
+ <section id="About-kishan" class="About-section">
+    <img class="About-me-img" src="images/phone.jpg" alt="">
+    <h1 class="About-me">About Me</h1>
+    <div class="discribe-div">
+    <p class="discribe-me">I'm a passionate UI/UX designer focused on creating easy-to-use and beautiful digital experiences. Skilled in sketching ideas, interactive prototyping, and crafting visually appealing designs, I prioritize understanding user needs through research and usability testing. I’m proficient in tools like Figma, Sketch, and Adobe XD, and excel in interaction design, responsive design, and usability testing. I create design systems, ensure accessibility, and deliver intuitive interfaces. By collaborating closely with teams, I iterate on designs to meet both user expectations and business goals, delivering seamless, engaging user experiences.</p>
+</div>
+<button id="CV" onclick="document.location='Ronak Re.pdf'"><img class="CV-img" src="images/curriculum-vitae (1).png">CV</button>
+<button id="project-gallery"><img class="project-gallery-img" src="images/backlog.png">Project Gallery</button>
+ </section>
+<!-- section 3 featured products -->
+ <section id="project-pic" class="section-3">
+    <h1 class="featured-project">Featured Project</h1>
+    <!--  -->
+    <h2 class="project">Ripple - Chatting App</h3>
+        <img class="ripple-img" src="images/Ripple.jpg">
+    <div class="project-div">
+    <p class="project-breaf">Designed and developed Ripple, a chat app that enables seamless communication and easy social interaction. <br>
+        &#x2022; Created wireframes and high-fidelity prototypes to showcase key features, including one-on-one messaging, group chats, and file sharing. <br>
+        &#x2022; Designed an intuitive, accessible user interface (UI) focused on smooth navigation and efficient communication flow.</p>
+        <button id="case-study"onclick="document.location='Case.html'">View Case Study</button>
+    </div>
+    <!--  -->
+    <h2 class="project-2">TaskHive - To Do List App</h2>
+    <img class="TaskHive-img" src="images/Ripple.jpg">
+    <div class="project-div-2">
+    <p class="project-2-breaf">
+        Designed and developed TaskHive, an intuitive task management app focused on deadline setting, task creation, and progress tracking. <br>
+        &#x2022; Created low-fidelity wireframes and high-fidelity interactive prototypes to showcase task creation, editing, and prioritization features. <br>
+        &#x2022; Developed a user-friendly interface (UI) to improve navigation, enhance usability, and boost productivity.
+    </p>
+    </div>
+    <button id="case-study-2">View Case Study</button>
+    <button id="more">More view</button>
+    <div class="line"></div>
+ </section>
+ <!-- section 4 -->
+<section id="Social-link" class="section-4">
+    <h1 class="social">Social Media</h1>
+<div class="grid">
+    <a href="https://dribbble.com/KishanUIX"><img src="images/img5.svg" alt="dribbble"></a>
+    <a href="https://www.linkedin.com/in/ronak-s-4aba0932a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+    <img src="images/img2.svg" alt="linkedin"></a>
+    <a href="https://wa.me/qr/4EMQUTFUSUYHO1"><img src="images/img3.svg" alt="Whatsaap"></a>
+    <a href=""><img src="images/img1.svg" alt="#"></a>
+    <a href="https://www.instagram.com/kishansh.yo?igsh=MWhkem1pM2N1ZmI1Zg=="><img src="images/img4.svg" alt="instagram"></a>
+    <a href="https://www.behance.net/kishansharma44"><img src="images/img6.svg" alt="behance"></a>
+</div>
+</section>
+
+<!-- section 5 -->
+ <section id="get-into" class="section-5">
+        <h1 class="form-headline">Get in touch</h1>
+        <p class="form-line">Let's connect! Fill out the form below to get in touch."</p>
+         <div class="form-validation">
+        <form  action="https://formspree.io/f/xqaedqdo"
+        method="POST">
+            <input type="text" id="n1" name="username" placeholder="Name" >
+            <input type="email" id="n2" name="email" placeholder="Email">
+            <input type="text" id="n3" name="Phone"placeholder=" Phone Number">
+            <input type="text" id="n4" name="message" placeholder="Your message">
+            <button id="Send" type="submit" onclick="validateForm()">Send</button>
+        </form>
+        </div>
+        <img class="four-in-one" src="images/Frame 5522.svg">
+ </section>
+ <!-- footer section-6 -->
+  <footer>
+    <h2 class="footer-logo">Ronak Sharma</h2>
+    <div class="feature-div">
+     <i><h2 class="feature">Features</h2></i>
+      <a href="">Home</a>
+      <a href="">About</a>
+      <div>
+        <a href="">Project</a>
+        
+      </div>
+      <a href="">Social Media</a>
+    </div>
+    <div class="Contact-div"><i><h2 class="Contact">Contact Us</h2></i>
+    
+    </div>
+<div class="copyright-div"><i><p class="copyright">&#169; 2025 Ronak Sharma. All rights reserved.</p></i></div>
+<h2 class="coder">Coding by Varun Negi Developer <br>&ensp; &emsp;  &ensp; &emsp; &ensp; &emsp;&<br>
+    Designed by Ronak Sharma
+</h2>
+  </footer>
+  <!--  -->
+ <script src="script.js"></script>
+</body>
+</html>

@@ -541,7 +541,7 @@ footer{
         margin-top: 16px;
         position: absolute;
         left: 0;
-        margin-left: 280px;
+        margin-left: 240px;
     }
     /* section 1 */
 .start{
@@ -1258,7 +1258,7 @@ footer{
         height: 180px;
         width: 328px;
         position: absolute;
-        margin-right: 230px;
+        margin-right: 260px;
         border-radius: 16px;
         box-shadow: 6px 6px 30px #71B7E6;
     }
@@ -1299,7 +1299,7 @@ footer{
     }
     .line{
         height: 3px;
-        width: 750px;
+        width: 400px;
         background-color: black;
         margin-top: 1020px;
         position: absolute;
@@ -1742,6 +1742,7 @@ font-family: "Satisfy", serif;
     width: 400px;
     position: absolute;
     border-radius: 16px;
+    margin-left: 620px;
     box-shadow: 6px 6px 30px #71B7E6;
 }
 .project-div-2{
@@ -2011,7 +2012,7 @@ footer{
         border-radius: 28px;
         margin-top: 16px;
         position: absolute;
-        margin-left: 330px;
+        margin-left: 560px;
     }
     /* section 1 */
     .start{
